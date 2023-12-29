@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marvelous Anyatonwu">
+    <meta name="description" content="A news webpage using CSS Flexbox and Javascript">
+    <title>News Webpage</title>
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="assets/images/logo.svg" alt="logo">
+            </div>
+            <ul class="desktop-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+            </ul>
+
+            <div class="hamburger-menu">
+                <div><img src="assets/images/icon-menu.svg" alt="" class="hamburger" id="hamburger"></div>
+                <ul class="mobile-menu">
+                    <img src="assets/images/icon-menu-close.svg" alt="" class="closed" id="closed">
+                    <div class="list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Popular</a></li>
+                        <li><a href="#">Trending</a></li>
+                        <li><a href="#">Categories</a></li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <div class="main">
+                <div class="main-contents">
+                    <div class="contents">
+                        <img src="assets/images/image-web-3-desktop.jpg" alt="main">
+                        <div class="inner">
+                            <h1>The Bright Future of <br>Web 3.0?</h1>
+                            <div class="main-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, accusamus suscipit
+                                    nesciunt earum tempore officia!</p>
+                                <button id="btn">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="side-bar">
+                        <h2>New</h2>
+                        <article>
+                            <a href="#">Hydrogen VS Electric Cars</a>
+                            <p>Will hydrogen-fueled cars ever catch-up to EVS</p>
+                        </article>
+                        <article>
+                            <a href="#">The Downsides of AI Artistry</a>
+                            <p>What are the possible adverse effects of on-demand Ai image generation?</p>
+                        </article>
+                        <article>
+                            <a href="#">Is VC Funding Drying Up?</a>
+                            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="footer-container">
+                    <div class="footer-content">
+                        <img src="assets/images/image-retro-pcs.jpg" alt="footer">
+                        <div class="footer-text">
+                            <h3>01</h3>
+                            <h2>Reviving Retro PCs</h2>
+                            <p>What happens when old PCs are given mordern upgrades?</p>
+                        </div>
+                    </div>
+                    <div class="footer-content">
+                        <img src="assets/images/image-top-laptops.jpg" alt="footer">
+                        <div class="footer-text">
+                            <h3>02</h3>
+                            <h2>Reviving Retro PCs</h2>
+                            <p>What happens when old PCs are given mordern upgrades?</p>
+                        </div>
+                    </div>
+                    <div class="footer-content">
+                        <img src="assets/images/image-gaming-growth.jpg" alt="footer">
+                        <div class="footer-text">
+                            <h3>03</h3>
+                            <h2>Reviving Retro PCs</h2>
+                            <p>What happens when old PCs are given mordern upgrades?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
